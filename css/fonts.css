@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "SegoeWP";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoeWP.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SegoeWPLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoeWPLight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "segoe-wp-semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/segoe-wp-semibold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Univers CE 45 Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Univers CE 45 Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Univers CE 45 Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MrsEaves/MrsEavesItalic.ttf") format("truetype"); }
