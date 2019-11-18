@@ -1,11 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "SegoeWPLight", sans-serif;
+}
+
 body {}
 
-body input:focus:required:invalid,
-body textarea:focus:required:invalid {
-  color: red; }
+/*/////////////HEADER/////////////*/
 
-body input:required:valid,
-body textarea:required:valid {
-  color: green; }
+header {
+	width: 100%;
+	background-image: url(../img/fon.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-position: 0 0;
+	height: 488px;
+	position: relative;
+}
 
+header h1 {
+	margin: 25px 0 0 134px;
+	font-family: "MrsEavesItalic", sans-serif;
+	font-size: 118.51px;
+	color: #CDCFD0;
+}
 
+header nav {
+	/*padding: 0;*/
+}
+
+header nav .nav {
+	padding: 40px 0 0 33px;
+}
+
+header nav li {
+ margin-left: 20px;
+}
+
+header nav a {
+	color: #CDCFD0;
+	font-size: 22.63px;
+	font-family: "SegoeWPLight", sans-serif;
+
+}
+
+.coffee {
+	padding: 31px 0 0 173px;
+}
+
+.intro {
+	color: #fff;
+	padding-top: 72px;
+    padding-left: 10px;
+
+}
+
+.intro h2 {
+	font-family: "segoe-wp-semibold", sans-serif;
+	font-size: 64.63px;
+	line-height: 70px;
+	margin-bottom: 0;
+}
+
+.intro h3 {
+	font-size: 44.63px;
+	/*color: #fff;*/
+	margin-bottom: 31px;
+}
+
+.intro button {
+	margin-left: 8px;
+	font-size: 22.63px;
+	color: #fff;
+	border: none;
+	background-color: #206544;
+    padding: 2px 24px 3px 20px;
+    letter-spacing: 0.3px;
+	box-shadow: 0 0 4px 4px #333;
+}
