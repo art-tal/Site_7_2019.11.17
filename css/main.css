@@ -157,6 +157,10 @@ main ul li a > h2 {
 	display: block;
 }*/
 
+
+
+/*/////////////articles/////////////*/
+
 article {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -202,6 +206,13 @@ article p {
 }
 
 
+
+/*/////////////Why us/////////////*/
+
+.why {
+	margin-bottom: 56px;
+}
+
 .why .col-5 {
 	padding: 0;
 }
@@ -240,7 +251,72 @@ article p {
 	padding-left: 30px;
 }
 
-.why ul li:before {
-	content: "";
-	width: 20px;
+
+
+/*/////////////forms/////////////*/
+
+.forms {
+	font-family: "SegoeWPNLight", sans-serif;
+	color: #fff;
+	width: 100%;
+	border-top: 1px solid #E6E6E6;
+}
+
+.forms .container {
+	padding: 23px 55px 35px 60px;
+}
+
+.forms form {
+	padding: 8px 15px 18px 26px;
+	border-radius: 5px;	
+}
+
+.forms form[name="login"] {
+	background-color: #E67624;
+	margin-right: 28px;
+}
+
+.forms form[name="newsletter"] {
+	background-color: #01D2F1;
+	margin: 0 18px 0 8px;
+}
+
+.forms form h2 {
+	margin-bottom: 20px;
+	font-size: 28px;
+}
+
+.forms form input {
+    margin-left: 3px;
+	padding: 1px 10px;
+	border: none;
+}
+
+.forms form input[type="text"] {
+	width: 155px;
+	margin-right: 7px;
+}
+
+.forms form input[type="password"] {
+	width: 150px;
+	margin-right: 7px;
+}
+
+.forms form[name="newsletter"] input {
+	width: 264px;
+	margin-right: 46px;
+}
+
+.forms form button {
+	padding: 3px 11px 3px 13px;
+	border: none;
+}
+
+.forms form[name="login"] button {
+	background-color: #444444;
+}
+
+.forms form[name="newsletter"] button {
+	background-color: #029BB1;
+	padding: 3px 21px 3px 26px;
 }
