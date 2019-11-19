@@ -200,3 +200,47 @@ article p {
 	line-height: 24px;
     margin-bottom: 24px;
 }
+
+
+.why .col-5 {
+	padding: 0;
+}
+
+.why img {
+	margin: 20px 0 0 -17px;
+}
+
+.why .col-7 {
+	padding-left: 79px;
+	padding-top: 47px;
+	padding-right: 0;
+}
+
+.why h2 {
+	font-family: "SegoeWPNLight", sans-serif;
+	margin-bottom: 28px;
+}
+
+.why ul {
+	margin-left: 1px;
+	list-style-type: none;
+}
+
+.why ul li {
+	font-family: "Univers CE 45 Light", sans-serif;
+	font-size: 16px;
+	word-spacing: -1px;
+	line-height: 22px;
+	background-image: url(../img/marker.png);
+	background-repeat: no-repeat;
+	background-position: 0 1px;
+	/*list-style-image: url(../img/marker.png);*/
+	text-align: left;
+	margin-bottom: 16px;
+	padding-left: 30px;
+}
+
+.why ul li:before {
+	content: "";
+	width: 20px;
+}
