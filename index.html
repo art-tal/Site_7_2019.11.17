@@ -57,13 +57,13 @@
 		
 		<ul class="nav nav-tabs row">		
 			<li class="nav-item col-3">
-				<a class="nav-link active" href="#" name="responsive">
+				<a class="nav-link" href="#" name="responsive">
 					<img src="img/responsive.png" alt="responsive">
 					<h2>Responsive Websites</h2>
 				</a>
 			</li>
 			<li class="nav-item col-3">
-				<a class="nav-link" href="#" name="e_commerce">
+				<a class="nav-link active" href="#" name="e_commerce">
 					<img src="img/e_commerce.png" alt="e_commerce">
 					<h2>e Commerce Websites</h2>
 				</a>
@@ -140,8 +140,8 @@
 				<div class="col-6">
 					<form action="#" method="post" name="login">
 						<h2>Member login</h2>
-						<input type="text" placeholder="User name">
-						<input type="password" placeholder="Password">
+						<input type="text" placeholder="User name" maxlength="16" pattern="[A-Za-z0-9] {16}">
+						<input type="password" placeholder="Password" pattern="[A-Za-z0-9] {8,}">
 						<button>Log me in.</button>
 					</form>
 				</div>
@@ -156,7 +156,51 @@
 		</div>
 	</div>
 
-	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-2">
+					<h2>About Us</h2>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Why us</a></li>
+						<li><a href="#">Customer Stories</a></li>
+						<li><a href="#">Press Resources</a></li>
+						<li><a href="#">Press Releases</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</div>
+
+				<div class="col-2">
+					<h2>About Us</h2>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Why us</a></li>
+						<li><a href="#">Customer Stories</a></li>
+						<li><a href="#">Press Resources</a></li>
+						<li><a href="#">Press Releases</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</div>
+
+				<div class="col-4">
+					<h2>Testimoanials</h2>
+					<img src="img/back.png" alt="back">
+					<img src="img/next.png" alt="next">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industr standard dummy text ever since the 1500s,<br> when an unknown printer took a </p>
+					<h4>Lorem Ipsum is simply</h4>
+					<h4>Owner, Lorem Ipsum</h4>
+				</div>
+
+				<div class="col-3">
+					<h1>Leo/-</h1>
+					<span>&#xA9; cssauthor.com</span>
+				</div>
+
+			</div>
+			
+		</div>
+	</footer>
 	
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/common.js"></script>

@@ -1,4 +1,10 @@
 @font-face {
+  font-family: "ArialMT";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ArialMT.ttf") format("truetype"); }
+
+@font-face {
   font-family: "SegoeWP";
   font-style: normal;
   font-weight: normal;
@@ -11,10 +17,17 @@
   src: url("../fonts/SegoeWPN-Light.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "segoe-wpn-semibold";
+  font-family: "SegoeWPN-Semibold";
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/SegoeWPN-Semibold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SegoeUI-SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoeUI-SemiBold.ttf") format("truetype"); }
+
 
 @font-face {
   font-family: "Univers CE 45 Light";
