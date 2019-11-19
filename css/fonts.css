@@ -5,16 +5,16 @@
   src: url("../fonts/SegoeWP.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "SegoeWPLight";
+  font-family: "SegoeWPNLight";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/SegoeWPLight.ttf") format("truetype"); }
+  src: url("../fonts/SegoeWPN-Light.ttf") format("truetype"); }
 
 @font-face {
-  font-family: "segoe-wp-semibold";
+  font-family: "segoe-wpn-semibold";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/segoe-wp-semibold.ttf") format("truetype"); }
+  src: url("../fonts/SegoeWPN-Semibold.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Univers CE 45 Light";

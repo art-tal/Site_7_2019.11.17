@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: "SegoeWPLight", sans-serif;
+	font-family: "SegoeWPNLight", sans-serif;
 }
 
 body {}
@@ -41,7 +41,7 @@ header nav li {
 header nav a {
 	color: #CDCFD0;
 	font-size: 22.63px;
-	font-family: "SegoeWPLight", sans-serif;
+	font-family: "SegoeWPNLight", sans-serif;
 
 }
 
@@ -57,7 +57,7 @@ header nav a {
 }
 
 .intro h2 {
-	font-family: "segoe-wp-semibold", sans-serif;
+	font-family: "segoe-wpn-semibold", sans-serif;
 	font-size: 64.63px;
 	line-height: 70px;
 	margin-bottom: 0;
@@ -78,4 +78,125 @@ header nav a {
     padding: 2px 24px 3px 20px;
     letter-spacing: 0.3px;
 	box-shadow: 0 0 4px 4px #333;
+}
+
+/*/////////////MAIN/////////////*/
+
+main {
+	/*padding-top: 60px;*/
+}
+
+main.container {
+	padding: 64px 55px 0 61px;
+}
+
+main .row {
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+.nav-tabs .nav-item {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    margin-bottom: -1px;
+}
+
+main ul li {
+	text-align: center;
+}
+
+.nav-link {
+	padding: .5rem 2rem;
+}
+
+main ul li a {
+	color: #5C5B5B;
+}
+
+.nav-link.active {
+	font-family: "segoe-wpn-semibold", sans-serif;
+	font-weight: bold;
+}
+
+main ul li.col-3 {
+	padding: 0;
+}
+
+main ul li a > img {
+	width: 135px;
+	height: 154px;
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+
+main ul li a > h2 {
+	font-size: 26.63px;
+	line-height: 28px;
+	padding-bottom: 30px;
+}
+
+/*.responsive, */
+.e_commerce, .daily, .search {
+	display: none;
+}
+
+/*.nav-link[name="responsive"].active .responsive {
+	display: block;
+}
+
+.nav-link[name="e_commerce"].active .e_commerce {
+	display: block;
+}
+
+.nav-link[name="daily"].active .daily {
+	display: block;
+}
+
+.nav-link[name="search"].active .search {
+	display: block;
+}*/
+
+article {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 59px 57px 40px  54px;
+	color: #818181;
+	border: 1px solid #dee2e6;
+	border-top: none;
+}
+
+article img {
+	margin-left: 101px;
+	margin-bottom: 12px;
+}
+
+.responsive img {
+	
+}
+
+.e_commerce img {
+	filter: sepia(100%);
+}
+
+.daily img {
+	filter: invert(100%);
+}
+
+.search img {
+	filter: opacity(75%);
+}
+
+article h1 {
+	margin-bottom: 24px;
+	letter-spacing: -0.6px;
+}
+
+article p {
+	font-family: "Univers CE 45 Light", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+    margin-bottom: 24px;
 }
