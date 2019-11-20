@@ -5,6 +5,9 @@
 }
 
 body {}
+.container {
+	width: 1140px;
+}
 
 /*/////////////HEADER/////////////*/
 
@@ -24,10 +27,6 @@ header h1 {
 	font-family: "MrsEavesItalic", sans-serif;
 	font-size: 118.51px;
 	color: #CDCFD0;
-}
-
-header nav {
-	/*padding: 0;*/
 }
 
 header nav .nav {
@@ -73,7 +72,6 @@ header .nav-link {
 
 .intro h3 {
 	font-size: 44.63px;
-	/*color: #fff;*/
 	margin-bottom: 31px;
 }
 
@@ -96,9 +94,6 @@ header .nav-link {
 
 /*/////////////MAIN/////////////*/
 
-main {
-	/*padding-top: 60px;*/
-}
 
 main.container {
 	padding: 64px 55px 0 61px;
@@ -128,9 +123,8 @@ main ul li a {
 	color: #5C5B5B;
 }
 
-main .col-3 .nav-link.active {
+main .col-3 .nav-link.active h2{
 	font-family: "SegoeWPN-Semibold", sans-serif;
-	font-weight: 900;
 }
 
 
@@ -151,29 +145,6 @@ main ul li a > h2 {
 	line-height: 28px;
 	padding-bottom: 30px;
 }
-
-/*.responsive, */
-.e_commerce, .daily, .search {
-	display: none;
-}
-
-/*.nav-link[name="responsive"].active .responsive {
-	display: block;
-}
-
-.nav-link[name="e_commerce"].active .e_commerce {
-	display: block;
-}
-
-.nav-link[name="daily"].active .daily {
-	display: block;
-}
-
-.nav-link[name="search"].active .search {
-	display: block;
-}*/
-
-
 
 /*/////////////articles/////////////*/
 
@@ -261,7 +232,6 @@ article p {
 	background-image: url(../img/marker.png);
 	background-repeat: no-repeat;
 	background-position: 0 1px;
-	/*list-style-image: url(../img/marker.png);*/
 	text-align: left;
 	margin-bottom: 16px;
 	padding-left: 30px;
@@ -333,6 +303,7 @@ article p {
 	background-color: #444444;
 }
 
+.forms form[name="login"] input:hover, 
 .forms form[name="login"] button:hover {
 	box-shadow: 0 0 10px 4px #FAB505;
 }
@@ -342,6 +313,7 @@ article p {
 	padding: 3px 21px 3px 26px;
 }
 
+.forms form[name="newsletter"] input:hover, 
 .forms form[name="newsletter"] button:hover {
 	box-shadow: 0 0 10px 4px #9DF0FD;
 }
