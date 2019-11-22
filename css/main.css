@@ -18,8 +18,18 @@ header {
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	background-position: 0 0;
-	height: 488px;
+	height: 500px;
 	position: relative;
+}
+
+header .container {
+	position: relative;
+	padding: 0;
+}
+
+header .container .row {
+	position: relative;
+	z-index: 2;
 }
 
 header h1 {
@@ -50,6 +60,12 @@ header nav .nav-link:hover {
 
 header .nav-link {
     padding: 10px 15px;
+}
+
+.car {
+	position: absolute;
+	top: 0;
+	z-index: 1;
 }
 
 .coffee {
